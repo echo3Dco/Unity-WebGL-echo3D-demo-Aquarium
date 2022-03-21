@@ -1,0 +1,225 @@
+fileFormatVersion: 2
+guid: cc9fa895bdb4a644385bb29071caeb0b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cliff 1
+    100002: Cliff 2
+    100004: Cliff 3
+    100006: //RootNode
+    100008: Large Cliff 1
+    100010: Large Cliff 2
+    100012: Large Cliff 3
+    100014: Large Cliff 4
+    100016: Rock 1
+    100018: Rock 10
+    100020: Rock 11
+    100022: Rock 12
+    100024: Rock 13
+    100026: Rock 14
+    100028: Rock 15
+    100030: Rock 16
+    100032: Rock 17
+    100034: Rock 18
+    100036: Rock 2
+    100038: Rock 3
+    100040: Rock 4
+    100042: Rock 5
+    100044: Rock 6
+    100046: Rock 7
+    100048: Rock 8
+    100050: Rock 9
+    400000: Cliff 1
+    400002: Cliff 2
+    400004: Cliff 3
+    400006: //RootNode
+    400008: Large Cliff 1
+    400010: Large Cliff 2
+    400012: Large Cliff 3
+    400014: Large Cliff 4
+    400016: Rock 1
+    400018: Rock 10
+    400020: Rock 11
+    400022: Rock 12
+    400024: Rock 13
+    400026: Rock 14
+    400028: Rock 15
+    400030: Rock 16
+    400032: Rock 17
+    400034: Rock 18
+    400036: Rock 2
+    400038: Rock 3
+    400040: Rock 4
+    400042: Rock 5
+    400044: Rock 6
+    400046: Rock 7
+    400048: Rock 8
+    400050: Rock 9
+    2100000: Rock
+    2100002: No Name
+    2300000: Cliff 1
+    2300002: Cliff 2
+    2300004: Cliff 3
+    2300006: Large Cliff 1
+    2300008: Large Cliff 2
+    2300010: Large Cliff 3
+    2300012: Large Cliff 4
+    2300014: Rock 1
+    2300016: Rock 10
+    2300018: Rock 11
+    2300020: Rock 12
+    2300022: Rock 13
+    2300024: Rock 14
+    2300026: Rock 15
+    2300028: Rock 16
+    2300030: Rock 17
+    2300032: Rock 18
+    2300034: Rock 2
+    2300036: Rock 3
+    2300038: Rock 4
+    2300040: Rock 5
+    2300042: Rock 6
+    2300044: Rock 7
+    2300046: Rock 8
+    2300048: Rock 9
+    3300000: Cliff 1
+    3300002: Cliff 2
+    3300004: Cliff 3
+    3300006: Large Cliff 1
+    3300008: Large Cliff 2
+    3300010: Large Cliff 3
+    3300012: Large Cliff 4
+    3300014: Rock 1
+    3300016: Rock 10
+    3300018: Rock 11
+    3300020: Rock 12
+    3300022: Rock 13
+    3300024: Rock 14
+    3300026: Rock 15
+    3300028: Rock 16
+    3300030: Rock 17
+    3300032: Rock 18
+    3300034: Rock 2
+    3300036: Rock 3
+    3300038: Rock 4
+    3300040: Rock 5
+    3300042: Rock 6
+    3300044: Rock 7
+    3300046: Rock 8
+    3300048: Rock 9
+    4300000: Cliff 1
+    4300002: Rock 14
+    4300004: Large Cliff 1
+    4300006: Rock 1
+    4300008: Rock 2
+    4300010: Rock 3
+    4300012: Rock 4
+    4300014: Rock 5
+    4300016: Rock 6
+    4300018: Rock 7
+    4300020: Rock 8
+    4300022: Rock 9
+    4300024: Rock 10
+    4300026: Rock 11
+    4300028: Rock 13
+    4300030: Rock 17
+    4300032: Rock 15
+    4300034: Rock 12
+    4300036: Rock 18
+    4300038: Rock 16
+    4300040: Large Cliff 3
+    4300042: Large Cliff 2
+    4300044: Cliff 2
+    4300046: Large Cliff 4
+    4300048: Cliff 3
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Rock
+    second: {fileID: 2100000, guid: 666e56d92f9c3004ab5dd573b83d1f65, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 24
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

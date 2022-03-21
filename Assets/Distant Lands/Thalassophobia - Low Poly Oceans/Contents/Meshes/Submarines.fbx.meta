@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 09f881e4000849a4e9e560552dece731
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Glass
+    100002: Minisub
+    100004: Roundcube.001
+    100006: //RootNode
+    100008: Cube
+    100010: Glass.001
+    100012: Cube.001
+    100014: Cube.002
+    100016: Chairs
+    100018: Control
+    100020: Dashboard
+    100022: Chairs.001
+    100024: Cylinder
+    100026: Dashboard.001
+    100028: Large Submarine
+    100030: Large Windows
+    100032: Mini Sub
+    100034: Small Windows
+    100036: Pilot Chair
+    100038: Hatch Door
+    100040: Steering Wheel
+    100042: Propellor
+    400000: Glass
+    400002: Minisub
+    400004: Roundcube.001
+    400006: //RootNode
+    400008: Cube
+    400010: Glass.001
+    400012: Cube.001
+    400014: Cube.002
+    400016: Chairs
+    400018: Control
+    400020: Dashboard
+    400022: Chairs.001
+    400024: Cylinder
+    400026: Dashboard.001
+    400028: Large Submarine
+    400030: Large Windows
+    400032: Mini Sub
+    400034: Small Windows
+    400036: Pilot Chair
+    400038: Hatch Door
+    400040: Steering Wheel
+    400042: Propellor
+    2100000: No Name
+    2100002: Sub
+    2100004: Interior
+    2100006: Machine
+    2100008: Glass
+    2100010: Chair 1
+    2100012: Light
+    2100014: Dashboard
+    2100016: Button
+    2100018: Screen
+    2100020: Switch
+    2100022: Light.002
+    2300000: Glass
+    2300002: Minisub
+    2300004: Roundcube.001
+    2300006: Cube
+    2300008: Glass.001
+    2300010: Cube.001
+    2300012: Cube.002
+    2300014: Chairs
+    2300016: Control
+    2300018: Dashboard
+    2300020: //RootNode
+    2300022: Chairs.001
+    2300024: Cylinder
+    2300026: Dashboard.001
+    2300028: Large Submarine
+    2300030: Large Windows
+    2300032: Mini Sub
+    2300034: Small Windows
+    2300036: Pilot Chair
+    2300038: Hatch Door
+    2300040: Steering Wheel
+    2300042: Propellor
+    3300000: Glass
+    3300002: Minisub
+    3300004: Roundcube.001
+    3300006: Cube
+    3300008: Glass.001
+    3300010: Cube.001
+    3300012: Cube.002
+    3300014: Chairs
+    3300016: Control
+    3300018: Dashboard
+    3300020: //RootNode
+    3300022: Chairs.001
+    3300024: Cylinder
+    3300026: Dashboard.001
+    3300028: Large Submarine
+    3300030: Large Windows
+    3300032: Mini Sub
+    3300034: Small Windows
+    3300036: Pilot Chair
+    3300038: Hatch Door
+    3300040: Steering Wheel
+    3300042: Propellor
+    4300000: Roundcube.001
+    4300002: Minisub
+    4300004: Glass
+    4300006: Glass.001
+    4300008: Cube
+    4300010: Cube.001
+    4300012: Cube.002
+    4300014: Chairs
+    4300016: Dashboard
+    4300018: Control
+    4300020: Mini Sub
+    4300022: Small Windows
+    4300024: Large Submarine
+    4300026: Large Windows
+    4300028: Chairs.001
+    4300030: Dashboard.001
+    4300032: Cylinder
+    4300034: Pilot Chair
+    4300036: Steering Wheel
+    4300038: Hatch Door
+    4300040: Propellor
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Button
+    second: {fileID: 2100000, guid: c79473dfebcd2ff4c859c29ed8ad8173, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Chair 1
+    second: {fileID: 2100000, guid: f87dc77b61408d642a55c7fd5a0b50a4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Dashboard
+    second: {fileID: 2100000, guid: dd1384f12a7e8484a9240efd930623df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 1d6914fc57396414cb566b880aa17042, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Interior
+    second: {fileID: 2100000, guid: 711ff886b2fdffb498140826c87f2a2b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Light
+    second: {fileID: 2100000, guid: fa3ebee75c052e0409a8b2bb9fcee475, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Machine
+    second: {fileID: 2100000, guid: a518fccfc3cf6564abfb92acf5b6be7a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 93d6dbbfea963fd44a921a1f48e306c7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Screen
+    second: {fileID: 2100000, guid: 599b7ed9b73861b418780fb1b44124d4, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sub
+    second: {fileID: 2100000, guid: e4fc936d5913be9458ccf199a5f78cac, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Switch
+    second: {fileID: 2100000, guid: bfc2b1e4794a43b4083588ce46885839, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 24
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

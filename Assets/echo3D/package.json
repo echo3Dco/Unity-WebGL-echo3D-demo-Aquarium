@@ -1,0 +1,9 @@
+{
+  "name": "co.echo3d.unity",
+  "displayName": "echo3D",
+  "version": "1.1.0",
+  "unity": "2018.2",
+  "description": "echo3D Unity SDK. By installing you confirm that you agree with our Terms of Use: https://www.echo3D.co/terms",
+  "keywords": [ "package", "unity", "echo3D" ],
+  "dependencies": {}
+}

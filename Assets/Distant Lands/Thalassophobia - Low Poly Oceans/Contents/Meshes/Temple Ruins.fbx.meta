@@ -1,0 +1,307 @@
+fileFormatVersion: 2
+guid: 701df28d48c1ade4ca4fbd95252d27d6
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Arch 1
+    100002: Arch 2
+    100004: Arch 3
+    100006: Arch 4
+    100008: Arch Small
+    100010: Arch Top
+    100012: Arches Column
+    100014: Arches Corner
+    100016: Arches Side
+    100018: Arches Small
+    100020: Cube
+    100022: Cube.002
+    100024: Cylinder
+    100026: Doorway 1
+    100028: Edging Corner 1
+    100030: Edging Corner 2
+    100032: Edging Side
+    100034: Fancy Wall 1
+    100036: Fancy Wall 2
+    100038: Half Cube 1
+    100040: Half Cube 2
+    100042: Half Cube 3
+    100044: Half Cube 4
+    100046: Icosphere
+    100048: LowMan
+    100050: Pillar Extension
+    100052: Short Column
+    100054: //RootNode
+    100056: Stairs 1
+    100058: Tall Column
+    100060: Wall
+    100062: Wall Corner
+    100064: Window
+    100066: Window Corner
+    100068: Cube.003
+    100070: Roof 1
+    100072: Roof 2x2
+    100074: Tower Extension
+    100076: Roof 3x3
+    100078: Tower Extension 2
+    100080: Stairs Corner 1
+    100082: Tower Extension Decor
+    100084: Tower Extension Decor 2
+    400000: Arch 1
+    400002: Arch 2
+    400004: Arch 3
+    400006: Arch 4
+    400008: Arch Small
+    400010: Arch Top
+    400012: Arches Column
+    400014: Arches Corner
+    400016: Arches Side
+    400018: Arches Small
+    400020: Cube
+    400022: Cube.002
+    400024: Cylinder
+    400026: Doorway 1
+    400028: Edging Corner 1
+    400030: Edging Corner 2
+    400032: Edging Side
+    400034: Fancy Wall 1
+    400036: Fancy Wall 2
+    400038: Half Cube 1
+    400040: Half Cube 2
+    400042: Half Cube 3
+    400044: Half Cube 4
+    400046: Icosphere
+    400048: LowMan
+    400050: Pillar Extension
+    400052: Short Column
+    400054: //RootNode
+    400056: Stairs 1
+    400058: Tall Column
+    400060: Wall
+    400062: Wall Corner
+    400064: Window
+    400066: Window Corner
+    400068: Cube.003
+    400070: Roof 1
+    400072: Roof 2x2
+    400074: Tower Extension
+    400076: Roof 3x3
+    400078: Tower Extension 2
+    400080: Stairs Corner 1
+    400082: Tower Extension Decor
+    400084: Tower Extension Decor 2
+    2100000: No Name
+    2100002: MazeLowMan
+    2100004: Roof
+    2100006: Roof 2
+    2300000: Arch 1
+    2300002: Arch 2
+    2300004: Arch 3
+    2300006: Arch 4
+    2300008: Arch Small
+    2300010: Arch Top
+    2300012: Arches Column
+    2300014: Arches Corner
+    2300016: Arches Side
+    2300018: Arches Small
+    2300020: Cube
+    2300022: Cube.002
+    2300024: Cylinder
+    2300026: Doorway 1
+    2300028: Edging Corner 1
+    2300030: Edging Corner 2
+    2300032: Edging Side
+    2300034: Fancy Wall 1
+    2300036: Fancy Wall 2
+    2300038: Half Cube 1
+    2300040: Half Cube 2
+    2300042: Half Cube 3
+    2300044: Half Cube 4
+    2300046: Icosphere
+    2300048: LowMan
+    2300050: Pillar Extension
+    2300052: Short Column
+    2300054: Stairs 1
+    2300056: Tall Column
+    2300058: Wall
+    2300060: Wall Corner
+    2300062: Window
+    2300064: Window Corner
+    2300066: Cube.003
+    2300068: Roof 1
+    2300070: Roof 2x2
+    2300072: Tower Extension
+    2300074: Roof 3x3
+    2300076: Tower Extension 2
+    2300078: Stairs Corner 1
+    2300080: Tower Extension Decor
+    2300082: Tower Extension Decor 2
+    3300000: Arch 1
+    3300002: Arch 2
+    3300004: Arch 3
+    3300006: Arch 4
+    3300008: Arch Small
+    3300010: Arch Top
+    3300012: Arches Column
+    3300014: Arches Corner
+    3300016: Arches Side
+    3300018: Arches Small
+    3300020: Cube
+    3300022: Cube.002
+    3300024: Cylinder
+    3300026: Doorway 1
+    3300028: Edging Corner 1
+    3300030: Edging Corner 2
+    3300032: Edging Side
+    3300034: Fancy Wall 1
+    3300036: Fancy Wall 2
+    3300038: Half Cube 1
+    3300040: Half Cube 2
+    3300042: Half Cube 3
+    3300044: Half Cube 4
+    3300046: Icosphere
+    3300048: LowMan
+    3300050: Pillar Extension
+    3300052: Short Column
+    3300054: Stairs 1
+    3300056: Tall Column
+    3300058: Wall
+    3300060: Wall Corner
+    3300062: Window
+    3300064: Window Corner
+    3300066: Cube.003
+    3300068: Roof 1
+    3300070: Roof 2x2
+    3300072: Tower Extension
+    3300074: Roof 3x3
+    3300076: Tower Extension 2
+    3300078: Stairs Corner 1
+    3300080: Tower Extension Decor
+    3300082: Tower Extension Decor 2
+    4300000: Doorway 1
+    4300002: Window Corner
+    4300004: Window
+    4300006: Arches Side
+    4300008: Arches Column
+    4300010: Cylinder
+    4300012: Arches Small
+    4300014: Arch Top
+    4300016: Arch Small
+    4300018: Arch 4
+    4300020: Arch 3
+    4300022: Arch 1
+    4300024: Half Cube 4
+    4300026: Half Cube 3
+    4300028: Half Cube 2
+    4300030: Half Cube 1
+    4300032: Stairs 1
+    4300034: Fancy Wall 2
+    4300036: Fancy Wall 1
+    4300038: Pillar Extension
+    4300040: Edging Corner 2
+    4300042: Edging Corner 1
+    4300044: Edging Side
+    4300046: Short Column
+    4300048: Cube
+    4300050: Arches Corner
+    4300052: LowMan
+    4300054: Icosphere
+    4300056: Tall Column
+    4300058: Arch 2
+    4300060: Cube.002
+    4300062: Wall
+    4300064: Wall Corner
+    4300066: Cube.003
+    4300068: Roof 2x2
+    4300070: Roof 1
+    4300072: Tower Extension
+    4300074: Roof 3x3
+    4300076: Tower Extension 2
+    4300078: Stairs Corner 1
+    4300080: Tower Extension Decor 2
+    4300082: Tower Extension Decor
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.6
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 24
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,159 @@
+fileFormatVersion: 2
+guid: f66eab46559a40046a5e9132fcae23bf
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Great White Shark
+    100002: Great White Shark Bones
+    100004: Head
+    100006: Left Fin
+    100008: Left Fin_end
+    100010: Lower Jaw
+    100012: Lower Jaw_end
+    100014: Right Fin
+    100016: Right Fin_end
+    100018: //RootNode
+    100020: Spine 1
+    100022: Spine 2
+    100024: Spine 3
+    100026: Spine 4
+    100028: Spine 4_end
+    100030: Upper Jaw
+    100032: Upper Jaw_end
+    400000: Great White Shark
+    400002: Great White Shark Bones
+    400004: Head
+    400006: Left Fin
+    400008: Left Fin_end
+    400010: Lower Jaw
+    400012: Lower Jaw_end
+    400014: Right Fin
+    400016: Right Fin_end
+    400018: //RootNode
+    400020: Spine 1
+    400022: Spine 2
+    400024: Spine 3
+    400026: Spine 4
+    400028: Spine 4_end
+    400030: Upper Jaw
+    400032: Upper Jaw_end
+    2100000: Skin 1
+    2100002: Belly
+    2100004: Mouth
+    2100006: Eye
+    2100008: Teeth
+    4300000: Great White Shark
+    9500000: //RootNode
+    13700000: Great White Shark
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Belly
+    second: {fileID: 2100000, guid: ad979d41f8ad4f04ea9ac59318ab95a6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye
+    second: {fileID: 2100000, guid: b5327dad18874d6498c0f83492a9bcc1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Mouth
+    second: {fileID: 2100000, guid: 2dbef92cc0b753b48b77276431505147, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Skin 1
+    second: {fileID: 2100000, guid: 12d0a1a63427d1440b5a55d62980f3de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Teeth
+    second: {fileID: 2100000, guid: 728f2adcccbde584a9f51b6b43348431, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 24
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,199 @@
+fileFormatVersion: 2
+guid: e4bfe4fb058418841b4b431689ccada1
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Iceberg 01
+    100002: Iceberg 02
+    100004: Iceberg 03
+    100006: Iceberg 04
+    100008: Iceberg 05
+    100010: Iceberg 06
+    100012: Iceberg 07
+    100014: Iceberg 08
+    100016: Iceberg 09
+    100018: Iceberg 10
+    100020: Iceberg 11
+    100022: Iceberg 12
+    100024: Iceberg 13
+    100026: Iceberg 14
+    100028: Iceberg 15
+    100030: Iceberg 16
+    100032: Iceberg 17
+    100034: Iceberg 18
+    100036: Iceberg 19
+    100038: Iceberg 20
+    100040: //RootNode
+    400000: Iceberg 01
+    400002: Iceberg 02
+    400004: Iceberg 03
+    400006: Iceberg 04
+    400008: Iceberg 05
+    400010: Iceberg 06
+    400012: Iceberg 07
+    400014: Iceberg 08
+    400016: Iceberg 09
+    400018: Iceberg 10
+    400020: Iceberg 11
+    400022: Iceberg 12
+    400024: Iceberg 13
+    400026: Iceberg 14
+    400028: Iceberg 15
+    400030: Iceberg 16
+    400032: Iceberg 17
+    400034: Iceberg 18
+    400036: Iceberg 19
+    400038: Iceberg 20
+    400040: //RootNode
+    2100000: No Name
+    2300000: Iceberg 01
+    2300002: Iceberg 02
+    2300004: Iceberg 03
+    2300006: Iceberg 04
+    2300008: Iceberg 05
+    2300010: Iceberg 06
+    2300012: Iceberg 07
+    2300014: Iceberg 08
+    2300016: Iceberg 09
+    2300018: Iceberg 10
+    2300020: Iceberg 11
+    2300022: Iceberg 12
+    2300024: Iceberg 13
+    2300026: Iceberg 14
+    2300028: Iceberg 15
+    2300030: Iceberg 16
+    2300032: Iceberg 17
+    2300034: Iceberg 18
+    2300036: Iceberg 19
+    2300038: Iceberg 20
+    3300000: Iceberg 01
+    3300002: Iceberg 02
+    3300004: Iceberg 03
+    3300006: Iceberg 04
+    3300008: Iceberg 05
+    3300010: Iceberg 06
+    3300012: Iceberg 07
+    3300014: Iceberg 08
+    3300016: Iceberg 09
+    3300018: Iceberg 10
+    3300020: Iceberg 11
+    3300022: Iceberg 12
+    3300024: Iceberg 13
+    3300026: Iceberg 14
+    3300028: Iceberg 15
+    3300030: Iceberg 16
+    3300032: Iceberg 17
+    3300034: Iceberg 18
+    3300036: Iceberg 19
+    3300038: Iceberg 20
+    4300000: Iceberg 20
+    4300002: Iceberg 01
+    4300004: Iceberg 02
+    4300006: Iceberg 03
+    4300008: Iceberg 04
+    4300010: Iceberg 05
+    4300012: Iceberg 06
+    4300014: Iceberg 07
+    4300016: Iceberg 08
+    4300018: Iceberg 09
+    4300020: Iceberg 10
+    4300022: Iceberg 11
+    4300024: Iceberg 12
+    4300026: Iceberg 13
+    4300028: Iceberg 14
+    4300030: Iceberg 15
+    4300032: Iceberg 16
+    4300034: Iceberg 17
+    4300036: Iceberg 18
+    4300038: Iceberg 19
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: d585e1fbca325b3448e82018e368d719, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 10
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 24
+    useFileScale: 0
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
