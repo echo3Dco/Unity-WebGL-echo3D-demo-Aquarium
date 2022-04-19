@@ -1,4 +1,5 @@
-﻿# Unity-WebGL-Aquarium-echo3D
+# Unity-WebGL-echo3D-demo-Aquarium
+ 
 ![Equarium screenshot](/screenshot.png)
 Example Unity WebGL project with echo3D integrated. 
 
