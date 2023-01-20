@@ -35,7 +35,7 @@ Visit our troubleshooting guide [here](https://docs.echo3d.co/unity/troubleshoot
 Feel free to reach out at [support@echo3D.co](mailto:support@echo3D.co) or join our [support channel on Slack](https://go.echo3D.co/join). 
 
 ## Credits
-A big thanks to mdsn and their terrific [aquarium gurgle sound!](https://freesound.org/people/mdsn/sounds/175274/).
+A big thanks to mdsn and their terrific [aquarium gurgle sound](https://freesound.org/people/mdsn/sounds/175274/).
 
 This demo implements features or assets from the following Unity Asset Store packages:
  - [Thalassophobia: Stylized Oceans](https://assetstore.unity.com/packages/3d/environments/landscapes/thalassophobia-stylized-oceans-192227)
