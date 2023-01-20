@@ -12,6 +12,7 @@ This digital "Equarium" loads its decorations and fish at runtime using the echo
 ## Steps
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Critters folder. Add these models to 1 project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Decor folder. Add these models to another project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
+* Open the Equarium scene.
 * [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) for those same models in the `Global.cs` script in Assets/Scripts. <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
 * [Add the entry IDs](https://docs.echo3d.co/quickstart/access-the-console) for the hammerhead shark and all static models.<br>
