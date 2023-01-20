@@ -245,24 +245,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 87309369}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 2100000, guid: 6fd29bacccf422a4096bacaf2e28d3f8, type: 2}
-  trunkMetalMaterial: {fileID: 2100000, guid: edb0f33ae4c92454a98ab2a0cf100a4e, type: 2}
-  trunkGoldMaterial: {fileID: 2100000, guid: 4a59b7d9a43fa624fba1f4ac7d19cb4e, type: 2}
-  Entries: 0ef5dad7-77d3-4a5f-99f8-e1c12c3e7e13,378052bb-b8df-43ee-9cb3-9bdba5f16303,023e5694-74e4-42c4-8bd3-333b6a7f1c8d
-  Tags: 
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &96984275
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,24 +416,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 151484577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: autumn-hat-6692
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 2100000, guid: 666e56d92f9c3004ab5dd573b83d1f65, type: 2}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: 1bf52dd8-b138-4363-adc3-c17f00af69e3
-  Tags: 
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1001 &189820514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2219,24 +2205,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1349213653}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 2100000, guid: 72ee7e0657851f049b59e15e94a524c6, type: 2}
-  smallSoftCoralMaterial: {fileID: 2100000, guid: 9ef0a551c42075a47bdd003b296b774d, type: 2}
-  bulbousCoralMaterial: {fileID: 2100000, guid: 0378a5239f2cfcf49b773114b24c5730, type: 2}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: ff7d3d20-1483-4951-a6e6-9a1859305a1b,78263cc9-8802-4856-abbc-562d37ed3213,94495824-fb94-4144-bb01-d7281ed09b51
-  Tags: 
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &1366203868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2625,6 +2604,63 @@ Transform:
   m_Father: {fileID: 590531489}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1640046770
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928386757233584049, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_Name
+      value: Echo3DService
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
 --- !u!1 &1677901664
 GameObject:
   m_ObjectHideFlags: 0
@@ -2912,24 +2948,17 @@ MonoBehaviour:
   m_GameObject: {fileID: 1826067355}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 2100000, guid: b1edd835ceac85c4a9c6d18023da8cf8, type: 2}
-  largeShelfCoral2Material: {fileID: 2100000, guid: 1aaf9ecaabc8b4b448617f6b96653a36, type: 2}
-  coralBunch1Material: {fileID: 2100000, guid: 004153ece9655e042840a2c9ff0aeded, type: 2}
-  largeShelfCoral4Material: {fileID: 2100000, guid: 0b59012b4637aea4d81a4e3e75788341, type: 2}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: 9547a4c3-f3c5-41dd-bce2-acf75e2a21c8,0c59dae5-af4a-4eb5-ba3e-bffaeab7b778,9911f1c4-8ea4-4a7e-8901-17ccd9e94427,9128bbe9-8e34-4122-ac5d-b11b444ac5b7,f022382a-6e5d-463e-9d4c-445743cf62ae,8f79d30e-0f4b-4bc4-9366-c46e1d0c207e
-  Tags: 
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!114 &1861687082 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11413628, guid: e7e2f009af2ec426c98e1b996bba693c, type: 3}

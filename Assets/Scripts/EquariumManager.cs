@@ -328,7 +328,7 @@ public class EquariumManager : MonoBehaviour
             if (entry != Globals.hammerheadEntryId)
             {
                 newCritter.GetComponentInChildren<FishController>().setManagerRef(this);
-                newCritter.GetComponentInChildren<echo3D>().Entries = entry;
+                newCritter.GetComponentInChildren<Echo3DHologram>().Entries = entry;
             }
             
             WaypointSystem path = createCritterPath();
