@@ -576,10 +576,12 @@ public class Echo3DService : MonoBehaviour
         {
             GameObject result = new GameObject();
             result.name = filenames[0];
-            var glb = result.AddComponent<GLTFast.GltfAsset>();
+            GLTFast.GltfAsset glb = result.AddComponent<GLTFast.GltfAsset>();
             glb.zeroTransform = zeroTransforms;
             //glb.shader = shader;
             glb.url = serverURL + "&file=" + ((ModelHologram)entry.getHologram()).getStorageID();
+            glb.instantiationSettings = new GLTFast.InstantiationSettings();
+            glb.instantiationSettings.mask = GLTFast.ComponentType.Mesh | GLTFast.ComponentType.Animation;
 #if UNITY_EDITOR
             if (!Application.isPlaying)
             {
