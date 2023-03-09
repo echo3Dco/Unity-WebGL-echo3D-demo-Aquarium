@@ -165,6 +165,7 @@ Transform:
   m_LocalRotation: {x: -0.17871644, y: 0, z: 0, w: 0.98390067}
   m_LocalPosition: {x: 9.39848, y: 7.6, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 199727524}
   - {fileID: 29836933}
@@ -200,10 +201,86 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.97, y: 3.380001, z: 16.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24734814}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &62529072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 62529073}
+  - component: {fileID: 62529075}
+  - component: {fileID: 62529074}
+  m_Layer: 0
+  m_Name: ChestTrunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62529073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_LocalRotation: {x: -0.01745245, y: 0, z: 0, w: 0.99984777}
+  m_LocalPosition: {x: 26.11, y: 3.3, z: 5.52}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!114 &62529074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &62529075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &87309369
 GameObject:
   m_ObjectHideFlags: 0
@@ -213,7 +290,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 87309370}
-  - component: {fileID: 87309371}
   m_Layer: 0
   m_Name: Props
   m_TagString: Untagged
@@ -231,38 +307,15 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2036791116}
+  - {fileID: 62529073}
+  - {fileID: 919102206}
+  - {fileID: 1753576251}
   m_Father: {fileID: 1405464963}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &87309371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87309369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 2100000, guid: 6fd29bacccf422a4096bacaf2e28d3f8, type: 2}
-  trunkMetalMaterial: {fileID: 2100000, guid: edb0f33ae4c92454a98ab2a0cf100a4e, type: 2}
-  trunkGoldMaterial: {fileID: 2100000, guid: 4a59b7d9a43fa624fba1f4ac7d19cb4e, type: 2}
-  Entries: 0ef5dad7-77d3-4a5f-99f8-e1c12c3e7e13,378052bb-b8df-43ee-9cb3-9bdba5f16303,023e5694-74e4-42c4-8bd3-333b6a7f1c8d
-  Tags: 
 --- !u!1 &96984275
 GameObject:
   m_ObjectHideFlags: 0
@@ -289,6 +342,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.100002, y: 3.88, z: -20.57}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050348768}
   m_RootOrder: 1
@@ -319,6 +373,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14, y: 14, z: 27}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405464963}
   m_RootOrder: 5
@@ -349,6 +404,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.2, y: -6.97, z: -17.99}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 812937994}
   m_RootOrder: 4
@@ -379,6 +435,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.9, y: -4.64, z: 1.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 590531489}
   m_RootOrder: 3
@@ -393,8 +450,9 @@ GameObject:
   m_Component:
   - component: {fileID: 151484578}
   - component: {fileID: 151484579}
+  - component: {fileID: 151484580}
   m_Layer: 0
-  m_Name: Rocks
+  m_Name: ArchRock
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -407,13 +465,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 151484577}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 21, y: 0, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405464963}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!114 &151484579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -423,24 +482,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 151484577}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  APIKey: autumn-hat-6692
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 2100000, guid: 666e56d92f9c3004ab5dd573b83d1f65, type: 2}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: 1bf52dd8-b138-4363-adc3-c17f00af69e3
-  Tags: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
+--- !u!114 &151484580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 151484577}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 2100000, guid: 666e56d92f9c3004ab5dd573b83d1f65, type: 2}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
 --- !u!1001 &189820514
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -577,6 +651,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.1, y: -16.83, z: 18.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050348768}
   m_RootOrder: 0
@@ -607,6 +682,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.27, y: -0.75, z: 9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24734814}
   m_RootOrder: 0
@@ -637,6 +713,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.3, y: -19.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 471651307}
   m_RootOrder: 2
@@ -667,6 +744,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 22.595497, y: -3.4027395, z: 26.020712}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1138329941}
   - {fileID: 872594620}
@@ -677,6 +755,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &276430336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 276430337}
+  - component: {fileID: 276430339}
+  - component: {fileID: 276430338}
+  m_Layer: 0
+  m_Name: LargeShelfCoral2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &276430337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276430336}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: -0.25, z: 41.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &276430338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276430336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 2100000, guid: 1aaf9ecaabc8b4b448617f6b96653a36, type: 2}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &276430339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276430336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &288237710
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,6 +856,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.24, y: 8.77, z: -19.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24734814}
   m_RootOrder: 3
@@ -837,6 +991,81 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4482441981194276186, guid: 706ae8fdf6ec04e479928aaa79af230f, type: 3}
   m_PrefabInstance: {fileID: 308271218}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &312670904
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 312670905}
+  - component: {fileID: 312670907}
+  - component: {fileID: 312670906}
+  m_Layer: 0
+  m_Name: Coral3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &312670905
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312670904}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 24, y: 0, z: 39}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &312670906
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312670904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 2100000, guid: b1edd835ceac85c4a9c6d18023da8cf8, type: 2}
+--- !u!114 &312670907
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 312670904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &324411293
 GameObject:
   m_ObjectHideFlags: 0
@@ -863,6 +1092,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.2, y: 5.91, z: -6.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1753413715}
   m_RootOrder: 4
@@ -895,6 +1125,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2008764910}
   m_RootOrder: 1
@@ -946,6 +1177,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 346244877}
   m_CullTransparentMesh: 1
+--- !u!1 &353087885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 353087886}
+  - component: {fileID: 353087888}
+  - component: {fileID: 353087887}
+  m_Layer: 0
+  m_Name: CoralBunch3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &353087886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353087885}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4, y: 0, z: 33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &353087887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353087885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 2100000, guid: 004153ece9655e042840a2c9ff0aeded, type: 2}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &353087888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353087885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &375618612
 GameObject:
   m_ObjectHideFlags: 0
@@ -973,6 +1279,7 @@ Transform:
   m_LocalRotation: {x: 0.7018423, y: 0, z: 0, w: 0.71233237}
   m_LocalPosition: {x: -7.6, y: 50, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 270330144}
   m_RootOrder: 4
@@ -1065,10 +1372,86 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.45, y: -9.91, z: -16.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 590531489}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &413579110
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 413579111}
+  - component: {fileID: 413579113}
+  - component: {fileID: 413579112}
+  m_Layer: 0
+  m_Name: BlobbyCoral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &413579111
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413579110}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 26, y: 0.5, z: 46}
+  m_LocalScale: {x: 60, y: 60, z: 60}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &413579112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413579110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 2100000, guid: b1edd835ceac85c4a9c6d18023da8cf8, type: 2}
+--- !u!114 &413579113
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 413579110}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!4 &464811081 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 410872, guid: e7e2f009af2ec426c98e1b996bba693c, type: 3}
@@ -1116,6 +1499,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1916067483}
   - {fileID: 1069179597}
@@ -1151,6 +1535,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: -11.1, z: -0.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050348768}
   m_RootOrder: 3
@@ -1197,6 +1582,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1923351721}
   - {fileID: 2094101255}
@@ -1248,6 +1634,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1035404965}
   - {fileID: 406594146}
@@ -1283,10 +1670,161 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.6, y: -13.4, z: 8.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050348768}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &733038279
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733038280}
+  - component: {fileID: 733038282}
+  - component: {fileID: 733038281}
+  m_Layer: 0
+  m_Name: BulbousCoral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733038280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733038279}
+  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 2, y: 0, z: 8}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1349213654}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &733038281
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733038279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 2100000, guid: 0378a5239f2cfcf49b773114b24c5730, type: 2}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &733038282
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733038279}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
+--- !u!1 &749845753
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 749845754}
+  - component: {fileID: 749845756}
+  - component: {fileID: 749845755}
+  m_Layer: 0
+  m_Name: SmallSoftCoral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &749845754
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749845753}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 9, y: 0.5, z: 26}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1349213654}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!114 &749845755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749845753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 2100000, guid: 9ef0a551c42075a47bdd003b296b774d, type: 2}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &749845756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 749845753}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &797546704
 GameObject:
   m_ObjectHideFlags: 0
@@ -1313,6 +1851,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.3, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253328470}
   m_RootOrder: 2
@@ -1359,6 +1898,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1989169084}
   - {fileID: 1382799235}
@@ -1368,6 +1908,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &816850505
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3785683710143176446, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4928386757233584049, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
+      propertyPath: m_Name
+      value: Echo3DService
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1733808ded1f94f45b6a8b8d7116f269, type: 3}
 --- !u!1 &839591872
 GameObject:
   m_ObjectHideFlags: 0
@@ -1396,6 +1993,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2008764910}
   m_RootOrder: 0
@@ -1469,6 +2067,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.8, y: -14.9, z: 1.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566055130}
   m_RootOrder: 2
@@ -1504,10 +2103,161 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.5, y: 0, z: 14.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253328470}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &919102205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 919102206}
+  - component: {fileID: 919102208}
+  - component: {fileID: 919102207}
+  m_Layer: 0
+  m_Name: ChestGold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919102206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_LocalRotation: {x: -0.01745245, y: 0, z: 0, w: 0.99984777}
+  m_LocalPosition: {x: 26.11, y: 3.3, z: 5.52}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!114 &919102207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &919102208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
+--- !u!1 &951790029
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 951790030}
+  - component: {fileID: 951790032}
+  - component: {fileID: 951790031}
+  m_Layer: 0
+  m_Name: CoralBunch1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &951790030
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951790029}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5, y: 0, z: 33}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &951790031
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951790029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 2100000, guid: 004153ece9655e042840a2c9ff0aeded, type: 2}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &951790032
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 951790029}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &1001688662
 GameObject:
   m_ObjectHideFlags: 0
@@ -1588,6 +2338,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -55, y: 13.9, z: 25}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 464811081}
   m_Father: {fileID: 0}
@@ -1715,6 +2466,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.27, y: -0.75, z: 9.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1753413715}
   m_RootOrder: 0
@@ -1745,6 +2497,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4, y: -16.1, z: 5.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566055130}
   m_RootOrder: 4
@@ -1775,6 +2528,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.05, y: -18.98, z: -16.78}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 590531489}
   m_RootOrder: 0
@@ -1805,6 +2559,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.32, y: -10.56, z: 17.15}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 812937994}
   m_RootOrder: 2
@@ -1835,6 +2590,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17.5, y: -17.79, z: 14.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 471651307}
   m_RootOrder: 1
@@ -1865,10 +2621,86 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.2, y: -14.43, z: -6.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253328470}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1133414762
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1133414763}
+  - component: {fileID: 1133414765}
+  - component: {fileID: 1133414764}
+  m_Layer: 0
+  m_Name: LargeSoftCoral
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1133414763
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133414762}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14, y: 0, z: 31}
+  m_LocalScale: {x: 13, y: 13, z: 13}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1349213654}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1133414764
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133414762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 2100000, guid: 72ee7e0657851f049b59e15e94a524c6, type: 2}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &1133414765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133414762}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!4 &1138329941 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4928455755391200757, guid: 2c5b2d6c6be812741b1297d70f73ca67, type: 3}
@@ -1900,6 +2732,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.3, y: 3.38, z: -9.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24734814}
   m_RootOrder: 2
@@ -1932,6 +2765,7 @@ Transform:
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 14.65, y: -0.42, z: 24.96}
   m_LocalScale: {x: 31.5, y: 50.9, z: 0.64}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405464963}
   m_RootOrder: 4
@@ -1947,6 +2781,7 @@ MeshRenderer:
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
@@ -2027,6 +2862,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1797930396}
   - {fileID: 887992483}
@@ -2062,6 +2898,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.24, y: 8.77, z: -19.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1753413715}
   m_RootOrder: 3
@@ -2188,7 +3025,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1349213654}
-  - component: {fileID: 1349213655}
   m_Layer: 0
   m_Name: Soft Coral
   m_TagString: Untagged
@@ -2206,37 +3042,14 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 749845754}
+  - {fileID: 1133414763}
+  - {fileID: 733038280}
   m_Father: {fileID: 1405464963}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1349213655
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1349213653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 2100000, guid: 72ee7e0657851f049b59e15e94a524c6, type: 2}
-  smallSoftCoralMaterial: {fileID: 2100000, guid: 9ef0a551c42075a47bdd003b296b774d, type: 2}
-  bulbousCoralMaterial: {fileID: 2100000, guid: 0378a5239f2cfcf49b773114b24c5730, type: 2}
-  blobbyCoralMaterial: {fileID: 0}
-  largeShelfCoral2Material: {fileID: 0}
-  coralBunch1Material: {fileID: 0}
-  largeShelfCoral4Material: {fileID: 0}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: ff7d3d20-1483-4951-a6e6-9a1859305a1b,78263cc9-8802-4856-abbc-562d37ed3213,94495824-fb94-4144-bb01-d7281ed09b51
-  Tags: 
 --- !u!1 &1366203868
 GameObject:
   m_ObjectHideFlags: 0
@@ -2263,6 +3076,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -7.2, y: 5.91, z: -6.55}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 24734814}
   m_RootOrder: 4
@@ -2293,6 +3107,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.79, y: -12.33, z: 13.84}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 812937994}
   m_RootOrder: 1
@@ -2323,6 +3138,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 10.97, y: 3.380001, z: 16.69}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1753413715}
   m_RootOrder: 1
@@ -2338,6 +3154,7 @@ GameObject:
   - component: {fileID: 1405464963}
   - component: {fileID: 1405464964}
   - component: {fileID: 1405464965}
+  - component: {fileID: 1405464966}
   m_Layer: 0
   m_Name: EquariumRoot
   m_TagString: equarium
@@ -2355,6 +3172,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1677901665}
   - {fileID: 151484578}
@@ -2403,6 +3221,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6cdc012bf36f2fe4981f3907ed7c790a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1405464966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1405464962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: 
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 1
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 0
 --- !u!1 &1418581157
 GameObject:
   m_ObjectHideFlags: 0
@@ -2429,6 +3268,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 18.3, y: 3.38, z: -9.91}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1753413715}
   m_RootOrder: 2
@@ -2460,6 +3300,7 @@ Transform:
   m_LocalRotation: {x: 0.72537434, y: 0, z: 0, w: 0.6883546}
   m_LocalPosition: {x: 0, y: 29.07, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 270330144}
   m_RootOrder: 2
@@ -2595,6 +3436,81 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3161df7fadaa86448417035d5577dc9, type: 3}
+--- !u!1 &1611936695
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1611936696}
+  - component: {fileID: 1611936698}
+  - component: {fileID: 1611936697}
+  m_Layer: 0
+  m_Name: LargeShelfCoral4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1611936696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611936695}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.5, y: 1.1, z: 10}
+  m_LocalScale: {x: 50, y: 50, z: 50}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1826067356}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1611936697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611936695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 1
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 2100000, guid: 0b59012b4637aea4d81a4e3e75788341, type: 2}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &1611936698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1611936695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &1613171227
 GameObject:
   m_ObjectHideFlags: 0
@@ -2621,6 +3537,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3.84, y: -16.66, z: -3.14}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 590531489}
   m_RootOrder: 4
@@ -2653,6 +3570,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1405464963}
   m_RootOrder: 0
@@ -2680,6 +3598,7 @@ Terrain:
   m_DrawHeightmap: 1
   m_DrawInstanced: 0
   m_DrawTreesAndFoliage: 1
+  m_StaticShadowCaster: 0
   m_ReflectionProbeUsage: 1
   m_MaterialTemplate: {fileID: 2100000, guid: 5c3c2cc137b878e46b70c4586a97c7a2, type: 2}
   m_BakeLightProbesForTrees: 1
@@ -2727,6 +3646,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.2, y: -16, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566055130}
   m_RootOrder: 3
@@ -2773,6 +3693,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1006295086}
   - {fileID: 1384563914}
@@ -2782,6 +3703,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1753576250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753576251}
+  - component: {fileID: 1753576253}
+  - component: {fileID: 1753576252}
+  m_Layer: 0
+  m_Name: ChestLid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753576251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_LocalRotation: {x: -0.009632653, y: -0.014553351, z: -0.8337589, w: 0.55185294}
+  m_LocalPosition: {x: 27.72, y: 3.3, z: 5.57}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: -113}
+--- !u!114 &1753576252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &1753576253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &1797930395
 GameObject:
   m_ObjectHideFlags: 0
@@ -2808,6 +3804,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -6.59, y: -19.18, z: 16.65}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253328470}
   m_RootOrder: 0
@@ -2838,6 +3835,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 14.39, y: -20.57, z: -15.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 471651307}
   m_RootOrder: 3
@@ -2868,6 +3866,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.4, y: -1.1, z: -8.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2050348768}
   m_RootOrder: 2
@@ -2881,7 +3880,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1826067356}
-  - component: {fileID: 1826067357}
   m_Layer: 0
   m_Name: Hard Coral
   m_TagString: Untagged
@@ -2899,37 +3897,17 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 951790030}
+  - {fileID: 353087886}
+  - {fileID: 276430337}
+  - {fileID: 1611936696}
+  - {fileID: 413579111}
+  - {fileID: 312670905}
   m_Father: {fileID: 1405464963}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1826067357
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1826067355}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  APIKey: white-bar-9326
-  useStaticModelsProject: 1
-  arch01Material: {fileID: 0}
-  largeSoftCoralMaterial: {fileID: 0}
-  smallSoftCoralMaterial: {fileID: 0}
-  bulbousCoralMaterial: {fileID: 0}
-  blobbyCoralMaterial: {fileID: 2100000, guid: b1edd835ceac85c4a9c6d18023da8cf8, type: 2}
-  largeShelfCoral2Material: {fileID: 2100000, guid: 1aaf9ecaabc8b4b448617f6b96653a36, type: 2}
-  coralBunch1Material: {fileID: 2100000, guid: 004153ece9655e042840a2c9ff0aeded, type: 2}
-  largeShelfCoral4Material: {fileID: 2100000, guid: 0b59012b4637aea4d81a4e3e75788341, type: 2}
-  trunkWoodMaterial: {fileID: 0}
-  trunkMetalMaterial: {fileID: 0}
-  trunkGoldMaterial: {fileID: 0}
-  Entries: 9547a4c3-f3c5-41dd-bce2-acf75e2a21c8,0c59dae5-af4a-4eb5-ba3e-bffaeab7b778,9911f1c4-8ea4-4a7e-8901-17ccd9e94427,9128bbe9-8e34-4122-ac5d-b11b444ac5b7,f022382a-6e5d-463e-9d4c-445743cf62ae,8f79d30e-0f4b-4bc4-9366-c46e1d0c207e
-  Tags: 
 --- !u!114 &1861687082 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11413628, guid: e7e2f009af2ec426c98e1b996bba693c, type: 3}
@@ -2967,6 +3945,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -4.51, y: -19.18, z: 20.77}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 471651307}
   m_RootOrder: 0
@@ -2997,6 +3976,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8, y: -16, z: 21}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566055130}
   m_RootOrder: 0
@@ -3027,6 +4007,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 17, y: -14.4, z: -22.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 812937994}
   m_RootOrder: 0
@@ -3057,6 +4038,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 12.87, y: 0, z: 3.63}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 590531489}
   m_RootOrder: 2
@@ -3242,6 +4224,7 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 839591873}
   - {fileID: 346244878}
@@ -3279,6 +4262,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1405464963}
   m_Father: {fileID: 0}
@@ -3312,6 +4296,7 @@ Transform:
   m_LocalRotation: {x: -0.027143458, y: -0.5864513, z: 0.0374284, w: 0.8086639}
   m_LocalPosition: {x: 25.77, y: 3, z: 5.540563}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 87309370}
   m_RootOrder: 0
@@ -3328,6 +4313,7 @@ ParticleSystemRenderer:
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
   m_MotionVectors: 1
   m_LightProbeUsage: 0
   m_ReflectionProbeUsage: 0
@@ -3358,6 +4344,7 @@ ParticleSystemRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 27
   m_RenderMode: 0
+  m_MeshDistribution: 0
   m_SortMode: 0
   m_MinParticleSize: 0
   m_MaxParticleSize: 0.5
@@ -3381,6 +4368,10 @@ ParticleSystemRenderer:
   m_Mesh1: {fileID: 0}
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
+  m_MeshWeighting: 1
+  m_MeshWeighting1: 1
+  m_MeshWeighting2: 1
+  m_MeshWeighting3: 1
   m_MaskInteraction: 0
 --- !u!198 &2036791118
 ParticleSystem:
@@ -3389,19 +4380,19 @@ ParticleSystem:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2036791115}
-  serializedVersion: 7
+  serializedVersion: 8
   lengthInSec: 3
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
   ringBufferMode: 0
   ringBufferLoopRange: {x: 0, y: 1}
+  emitterVelocityMode: 0
   looping: 1
   prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
-  useRigidbodyForVelocity: 1
   startDelay:
     serializedVersion: 2
     minMaxState: 0
@@ -3951,6 +4942,7 @@ ParticleSystem:
         m_RotationOrder: 4
     randomizeRotationDirection: 0
     maxNumParticles: 1000
+    customEmitterVelocity: {x: 0, y: 0, z: 0}
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -8114,6 +9106,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -2.26, y: -1.2, z: -3.37}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 812937994}
   m_RootOrder: 3
@@ -8160,6 +9153,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 9.39848, y: 21, z: 26.425371}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 198327448}
   - {fileID: 96984276}
@@ -8195,6 +9189,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.24, y: -1.2, z: -19.4}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1253328470}
   m_RootOrder: 3
@@ -8229,6 +9224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -8261,6 +9257,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -8291,6 +9288,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 8.5, y: -13.7, z: 21.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 566055130}
   m_RootOrder: 1
@@ -8321,6 +9319,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.98, y: -18.293, z: -4.36}
   m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 471651307}
   m_RootOrder: 4
