@@ -2,7 +2,7 @@
 This digital "Equarium" loads its decorations and fish at runtime using the echo3D API. The echo3D platform allows the app to select and display multitudes of different fish types without requiring any asset bundling or inclusion in the app build itself. New critters can be added by uploading to your echo3D project without increasing the app footprint. Because fish are randomly selected, scaled and textured, no two aquariums will ever be exactly the same!
 
 ## Setup
-* Built with Unity 2020.3.3.  _(Note: Build process will fail Unity 2021 versions.)_
+* Built with Unity 2021.3.16f1
 * [Register for FREE at echo3D](https://console.echo3d.com/#/auth/register?utm_term={keyword}&utm_campaign=webgl_echo3d_demo&utm_source=github&utm_medium=readme). <br>
 * To view a completed demo project that only requires the echo3D API key & entry ID, clone this repo. The echo3D Unity SDK is aleady included in the project.
 
