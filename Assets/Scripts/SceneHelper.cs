@@ -168,6 +168,7 @@ public class SceneHelper : MonoBehaviour
                     if (myRenderer)
                     {
                         myRenderer.material = LargeSoftCoralMaterial;
+                        myRenderer.material.SetFloat("_FlutterAmount", 0.002f);
                         onLoadAdjustment = false;
                     }
                     break;

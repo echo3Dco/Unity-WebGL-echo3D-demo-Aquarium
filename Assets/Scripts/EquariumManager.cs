@@ -19,8 +19,6 @@ public class EquariumManager : MonoBehaviour
     List<string> entriesToSpawn;
     private int totalFishToSpawn = 0;
     private int totalFishLoaded = 0;
-    private int dataQueried = 0;
-    private int assetsDownloaded = 0;
 
     private Echo3DHologram allFishQueryHologram;
 
@@ -28,10 +26,8 @@ public class EquariumManager : MonoBehaviour
     //on Awake, query the echo database and get a list of all possible entries (critters/fish)
     void Awake()
     {
-        //Debug.Log("Echo 3D CS Start");
         totalFishToSpawn = presetCritterPaths.Count;
-        // The echo3D server details
-        string endpointURL = "https://api.echo3D.co";
+        string endpointURL = "https://api.echo3D.com";
         string queryURL = endpointURL + "/query?key=" + Globals.fishProjectApiKey + "&secKey=" + Globals.fishProjectSecKey + "&src=UnitySDK";
         allFishQueryHologram = GetComponent<Echo3DHologram>();
         allFishQueryHologram.queryOnly = true;
@@ -43,14 +39,6 @@ public class EquariumManager : MonoBehaviour
     {
         StartCoroutine(whichFishShouldSpawn());
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //Debug.Log("DB: " + allFishQueryHologram.queryData == null);
-    }
-
-
     public void fishFinishedLoading()
     {
         totalFishLoaded++;
@@ -61,21 +49,10 @@ public class EquariumManager : MonoBehaviour
         }
     }
 
-    public void queriedDatabase()
-    {
-        dataQueried++;
-    }
-
-    public void assetDownloaded()
-    {
-        assetsDownloaded++;
-    }
-
     public string getLoadedPercent()
     {
 
-        int percent = Mathf.RoundToInt((dataQueried + assetsDownloaded + totalFishLoaded) / (totalFishToSpawn * 3f) * 100);
-
+        int percent = Mathf.RoundToInt(totalFishLoaded / totalFishToSpawn * 100);
         return " (" + percent.ToString() + "%)";
     }
     IEnumerator whichFishShouldSpawn()
@@ -101,28 +78,34 @@ public class EquariumManager : MonoBehaviour
 
     void spawnFish()
     {
-
         entriesToSpawn.ForEach((entry) =>
         {
             GameObject newCritter = Instantiate(entry == Globals.hammerheadEntryId ? hammerheadPrefab : fishModelPrefab, Vector3.zero, Quaternion.identity, crittersParentObj.transform);
-            Echo3DHologram holo = GetComponentInChildren<Echo3DHologram>();
-            if (entry != Globals.hammerheadEntryId)
-            {
-                newCritter.GetComponentInChildren<FishController>().setManagerRef(this);
-                holo.entries = entry;
-                holo.apiKey = Globals.fishProjectApiKey;
-                holo.secKey = Globals.fishProjectSecKey;
-            }
-
+            Echo3DHologram holo = newCritter.GetComponentInChildren<Echo3DHologram>();
+            newCritter.GetComponentInChildren<FishController>().setManagerRef(this);
+            newCritter.GetComponentInChildren<FishController>().isHammerHead = entry == Globals.hammerheadEntryId;
+            holo.entries = entry;
+            holo.apiKey = Globals.fishProjectApiKey;
+            holo.secKey = Globals.fishProjectSecKey;
             WaypointSystem path = createCritterPath();
             path.SetTargetTransform(newCritter.transform);
         });
+
+        //Uncomment the below code chunk to force spawn 1x hammerhead
+        //GameObject newCritter = Instantiate(hammerheadPrefab, Vector3.zero, Quaternion.identity, crittersParentObj.transform);
+        //Echo3DHologram holo = newCritter.GetComponentInChildren<Echo3DHologram>();
+        //newCritter.GetComponentInChildren<FishController>().setManagerRef(this);
+        //newCritter.GetComponentInChildren<FishController>().isHammerHead = true;
+        //holo.entries = Globals.hammerheadEntryId;
+        //holo.apiKey = Globals.fishProjectApiKey;
+        //holo.secKey = Globals.fishProjectSecKey;
+        //WaypointSystem path = createCritterPath();
+        //path.SetTargetTransform(newCritter.transform);
+
     }
 
     WaypointSystem createCritterPath()
     {
-        //todo: dynamic pathing generation within the aquarium. Currently predefined via gameobjects in scene (FishPath objects)
-
         return presetCritterPaths.Find((waypointSys) => waypointSys.objectToMove == null);
     }
 
