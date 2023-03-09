@@ -206,6 +206,81 @@ Transform:
   m_Father: {fileID: 24734814}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &62529072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 62529073}
+  - component: {fileID: 62529075}
+  - component: {fileID: 62529074}
+  m_Layer: 0
+  m_Name: ChestTrunk
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &62529073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_LocalRotation: {x: -0.01745245, y: 0, z: 0, w: 0.99984777}
+  m_LocalPosition: {x: 26.11, y: 3.3, z: 5.52}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!114 &62529074
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &62529075
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 62529072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &87309369
 GameObject:
   m_ObjectHideFlags: 0
@@ -215,14 +290,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 87309370}
-  - component: {fileID: 87309371}
   m_Layer: 0
   m_Name: Props
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &87309370
 Transform:
   m_ObjectHideFlags: 0
@@ -236,21 +310,12 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2036791116}
+  - {fileID: 62529073}
+  - {fileID: 919102206}
+  - {fileID: 1753576251}
   m_Father: {fileID: 1405464963}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &87309371
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87309369}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf1207ab2260994aa98cbfa9f61c3a3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &96984275
 GameObject:
   m_ObjectHideFlags: 0
@@ -392,7 +457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &151484578
 Transform:
   m_ObjectHideFlags: 0
@@ -2043,6 +2108,81 @@ Transform:
   m_Father: {fileID: 1253328470}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &919102205
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 919102206}
+  - component: {fileID: 919102208}
+  - component: {fileID: 919102207}
+  m_Layer: 0
+  m_Name: ChestGold
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &919102206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_LocalRotation: {x: -0.01745245, y: 0, z: 0, w: 0.99984777}
+  m_LocalPosition: {x: 26.11, y: 3.3, z: 5.52}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: 0}
+--- !u!114 &919102207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &919102208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 919102205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &951790029
 GameObject:
   m_ObjectHideFlags: 0
@@ -3563,6 +3703,81 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1753576250
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1753576251}
+  - component: {fileID: 1753576253}
+  - component: {fileID: 1753576252}
+  m_Layer: 0
+  m_Name: ChestLid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1753576251
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_LocalRotation: {x: -0.009632653, y: -0.014553351, z: -0.8337589, w: 0.55185294}
+  m_LocalPosition: {x: 27.72, y: 3.3, z: 5.57}
+  m_LocalScale: {x: 200, y: 200, z: 200}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 87309370}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -2, y: 0, z: -113}
+--- !u!114 &1753576252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d953c1e10249e2f4f86baf751f0311d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onLoadAdjustment: 0
+  ArchRockMaterial: {fileID: 0}
+  SmallSoftCoralMaterial: {fileID: 0}
+  LargeSoftCoralMaterial: {fileID: 0}
+  BulbousCoralMaterial: {fileID: 0}
+  CoralBunchMaterial: {fileID: 0}
+  LargeShelfCoral2Material: {fileID: 0}
+  LargeShelfCoral4Material: {fileID: 0}
+  BlobbyCoralMaterial: {fileID: 0}
+--- !u!114 &1753576253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1753576250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9d8e65c606514046beb1e5c874892db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secKey: <YOUR_SECURITY_KEY>
+  apiKey: <YOUR_API_KEY>
+  entries: 
+  tags: 
+  editorPreview: 0
+  queryURL: 
+  queryOnly: 0
+  disableRemoteTransformations: 0
+  ignoreModelTransforms: 1
 --- !u!1 &1797930395
 GameObject:
   m_ObjectHideFlags: 0
@@ -3671,7 +3886,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1826067356
 Transform:
   m_ObjectHideFlags: 0

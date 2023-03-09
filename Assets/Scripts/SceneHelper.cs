@@ -49,6 +49,9 @@ public class SceneHelper : MonoBehaviour
             case "LargeShelfCoral4":
             case "BlobbyCoral":
             case "Coral3":
+            case "ChestTrunk":
+            case "ChestGold":
+            case "ChestLid":
                 {
                     hologram.apiKey = Globals.staticModelsProjectApiKey;
                     hologram.secKey = Globals.staticModelsProjectSecKey;
@@ -113,6 +116,21 @@ public class SceneHelper : MonoBehaviour
             case "Coral3":
                 {
                     hologram.entries = Globals.coral3EntryId;
+                    break;
+                }
+            case "ChestGold":
+                {
+                    hologram.entries = Globals.chestGoldEntryId;
+                    break;
+                }
+            case "ChestLid":
+                {
+                    hologram.entries = Globals.chestLidEntryId;
+                    break;
+                }
+            case "ChestTrunk":
+                {
+                    hologram.entries = Globals.chestTrunkEntryId;
                     break;
                 }
             default:
