@@ -11,8 +11,6 @@ The built WebGL application is via github pages. Check out https://echo3dco.gith
 * [Register for FREE at echo3D](https://console.echo3d.com/#/auth/register?utm_term={keyword}&utm_campaign=webgl_echo3d_demo&utm_source=github&utm_medium=readme). <br>
 * To view a completed demo project that only requires the echo3D API key & entry ID, clone this repo. The echo3D Unity SDK is aleady included in the project.
 
-## Video
-* See on Youtube [here](link goes here).
 
 ## Steps
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Critters folder. Add these models to 1 project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
