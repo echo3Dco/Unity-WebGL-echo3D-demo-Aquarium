@@ -3,7 +3,7 @@ This digital "Equarium" loads its decorations and fish at runtime using the echo
 
 
 ## See it Live
-The built WebGL application is via github pages. Check out https://echo3dco.github.io/Unity-WebGL-echo3D-demo-Aquarium/ to load the aquarium. Allow a few minutes for the application to stream and load assets. 
+The built WebGL application is available to preview via github pages. Check out https://echo3dco.github.io/Unity-WebGL-echo3D-demo-Aquarium/ to load the aquarium. Allow a few minutes for the application to stream and load assets. When it is complete, it will prompt you to press any key to unveil the aquarium. 
 
 
 ## Setup
