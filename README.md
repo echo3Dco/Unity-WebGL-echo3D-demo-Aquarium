@@ -1,6 +1,11 @@
 # Unity-WebGL-echo3D-Demo-Aquarium
 This digital "Equarium" loads its decorations and fish at runtime using the echo3D API. The echo3D platform allows the app to select and display multitudes of different fish types without requiring any asset bundling or inclusion in the app build itself. New critters can be added by uploading to your echo3D project without increasing the app footprint. Because fish are randomly selected, scaled and textured, no two aquariums will ever be exactly the same!
 
+
+## See it Live
+The built WebGL application is via github pages. Check out https://echo3dco.github.io/Unity-WebGL-echo3D-demo-Aquarium/ to load the aquarium. Allow a few minutes for the application to stream and load assets. 
+
+
 ## Setup
 * Built with Unity 2021.3.16f1
 * [Register for FREE at echo3D](https://console.echo3d.com/#/auth/register?utm_term={keyword}&utm_campaign=webgl_echo3d_demo&utm_source=github&utm_medium=readme). <br>
@@ -27,9 +32,9 @@ Run the editor or build the WebGL app. Within a browser sounds will not play unt
 Refer to our [documentation](https://docs.echo3D.co/unity/) to learn more about how to use Unity and echo3D.
 
 ## Troubleshooting
-Due to browser limitations models loaded via this app will **not** respond to changes in metadata made via the echo3D platform (Scale, rotation etc). Refreshing the app will refetch models with reflected changes.
+Due to browser limitations with WebGL and websockets, models loaded via this app will **not** respond to changes in metadata made via the echo3D platform (Scale, rotation etc). Refreshing the app will refetch models with reflected changes.
 
-Visit our troubleshooting guide [here](https://docs.echo3d.co/unity/troubleshooting#im-getting-a-newtonsoft.json.dll-error-in-unity).
+Visit our troubleshooting guide [here](https://docs.echo3d.co/unity/troubleshooting).
 
 ## Support
 Feel free to reach out at [support@echo3D.co](mailto:support@echo3D.co) or join our [support channel on Slack](https://go.echo3D.co/join). 
