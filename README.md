@@ -16,12 +16,9 @@ The built WebGL application is via github pages. Check out https://echo3dco.gith
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Critters folder. Add these models to 1 project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Decor folder. Add these models to another project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
 * Open the Equarium scene.
-* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) for those same models in the `Global.cs` script in Assets/Scripts. <br>
+* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) for each project, static models and the hammerhead shark in the `Global.cs` script found in Assets/Scripts. <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
-* [Add the entry IDs](https://docs.echo3d.co/quickstart/access-the-console) for the hammerhead shark and all static models.<br>
-![NEWAPIKeyandEntryID](https://user-images.githubusercontent.com/99516371/205407613-b746840f-8e8a-4ec8-b056-a680395dfab4.png)<br>
-* [Uncheck](https://docs.echo3d.co/web-console/deliver-pages/security-page) the “Enable Secret Key” box in your echo3D console (For a production build, it’s best to [add the echo3D security key](https://docs.echo3d.co/web-console/deliver-pages/security-page) to the `Global.cs` script as well). <br>
-![NEWSecKey2](https://user-images.githubusercontent.com/99516371/195749308-b2349a3b-7e43-4d3c-8f09-fbfa9d3cb0be.png).
+* [If you have your secret key enabled](https://docs.echo3d.co/web-console/deliver-pages/security-page), add the security key for each project to the `Global.cs` script as well. <br>
 
 ## Run
 Run the editor or build the WebGL app. Within a browser sounds will not play until you interact with the window. Increase the music volume with "P" and decrease with "L". Reload the page / re-run the editor app to load different fish and try to see them all!
