@@ -16,7 +16,7 @@ The built WebGL application is via github pages. Check out https://echo3dco.gith
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Critters folder. Add these models to 1 project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
 * [Add these models](https://docs.echo3D.co/quickstart/add-a-3d-model) to the echo3D console from the Models/Decor folder. Add these models to another project in the echo3D console. This project will have its own [project key](https://docs.echo3d.com/quickstart/access-the-console). <br>
 * Open the Equarium scene.
-* [Set the API key](https://docs.echo3d.co/quickstart/access-the-console) for each project, static models and the hammerhead shark in the `Global.cs` script found in Assets/Scripts. <br>
+* [Set the API key and entryIDs](https://docs.echo3d.co/quickstart/access-the-console) for each project, static models and the hammerhead shark in the `Global.cs` script found in Assets/Scripts. <br>
 ![APIKeyandEntryId](https://user-images.githubusercontent.com/99516371/195749269-f7a43477-b67a-49e8-a212-6abdb9c948fd.png)<br>
 * [If you have your secret key enabled](https://docs.echo3d.co/web-console/deliver-pages/security-page), add the security key for each project to the `Global.cs` script as well. <br>
 
